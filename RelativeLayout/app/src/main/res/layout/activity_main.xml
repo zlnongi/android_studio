@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:background="#FFC2FF"
+        android:gravity="center"
+        android:hapticFeedbackEnabled="false"
+        android:text="View2"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="#85D7FA"
+        android:gravity="center"
+        android:hapticFeedbackEnabled="false"
+        android:text="View1"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/textView"
+        android:layout_centerInParent="true"
+        android:background="#E174F4"
+        android:gravity="center"
+        android:hapticFeedbackEnabled="false"
+        android:text="View5"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="#85D7FA"
+        android:gravity="center"
+        android:hapticFeedbackEnabled="false"
+        android:text="View4"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@id/textView2"
+        android:layout_centerInParent="true"
+        android:background="#85D7FA"
+        android:gravity="center"
+        android:hapticFeedbackEnabled="false"
+        android:text="View6"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/textView"
+        android:layout_centerInParent="true"
+        android:background="#B5DBA9"
+        android:gravity="center"
+        android:hapticFeedbackEnabled="false"
+        android:text="View3"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
